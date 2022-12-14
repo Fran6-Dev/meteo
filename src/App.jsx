@@ -26,7 +26,7 @@ const searchLocation = () => {
   return (
     <>
       <div className='text-center flex flex-col w-2/3 mx-auto'>
-        <h1 className='text-3xl mb-3'>Weather App</h1>
+        <h1 className='text-4xl mb-3'>Weather App</h1>
         <div className='px-10'>
           <form action="">
             <input 
@@ -41,7 +41,7 @@ const searchLocation = () => {
             onClick={searchLocation}
             className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 mb-3 border border-blue-500 hover:border-transparent rounded' />
           </form>
-          <div className='border rounded'>
+          <div className='border rounded bg-slate-300'>
             <h2 className='text-4xl'>{fetchWeather.name}</h2>
             <div>
               <div>
